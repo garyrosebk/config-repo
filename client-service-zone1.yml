@@ -20,7 +20,7 @@ management:
   endpoints:
      web:
        exposure:
-     include: "refresh"
+         include: "refresh"
   security:
     enabled: false
 
@@ -28,4 +28,4 @@ sample:
   string:
     property: Client Application
   int:
-    property: 2
+    property: 3

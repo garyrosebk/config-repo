@@ -23,6 +23,7 @@ management:
      include: "refresh"
   security:
     enabled: false
+
 sample:
   string:
     property: Client Application

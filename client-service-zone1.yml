@@ -17,6 +17,10 @@ eureka:
     disable-delta: true
  
 management:
+  endpoints:
+    web:
+      exposure:
+        include : "refresh"
   security:
     enabled: false
 sample:

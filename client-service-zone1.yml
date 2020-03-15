@@ -21,9 +21,6 @@ management:
     web:
       exposure:
         include: *
-  endpoints:
-    web:
-      exposure:
         exclude: env      
   security:
     enabled: false

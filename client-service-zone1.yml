@@ -28,4 +28,4 @@ sample:
   string:
     property: Client Application
   int:
-    property: 1
+    property: 2

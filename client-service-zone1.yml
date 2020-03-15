@@ -20,7 +20,11 @@ management:
   endpoints:
     web:
       exposure:
-        include : "refresh"
+        include: *
+  endpoints:
+    web:
+      exposure:
+        exclude: env      
   security:
     enabled: false
 sample:

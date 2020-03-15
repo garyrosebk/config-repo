@@ -18,13 +18,9 @@ eureka:
  
 management:
   endpoints:
-    web:
-      exposure:
-        include: *
-  endpoints:
-    web:
-      exposure:
-        exclude: env      
+     web:
+       exposure:
+     include: "refresh"
   security:
     enabled: false
 sample:

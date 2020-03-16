@@ -16,13 +16,3 @@ eureka:
     fetchRegistry: true
     registry-fetch-interval-seconds: 3
     disable-delta: true 
-
-management:
-  security:
-    enabled: false
-
-sample:
-  string:
-    property: Client Application
-  int:
-    property: 2

@@ -17,9 +17,6 @@ eureka:
     registry-fetch-interval-seconds: 3
     disable-delta: true 
 
-management:
-  security:
-    enabled: false
  
 sample:
   string:

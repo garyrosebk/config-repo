@@ -17,9 +17,16 @@ eureka:
     registry-fetch-interval-seconds: 3
     disable-delta: true 
 
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
  
 sample:
   string:
-    property: Client Application
+    property: Client App
   int:
-    property: 2
+    property: 1
